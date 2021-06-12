@@ -1,0 +1,43 @@
+.footer{
+    min-height: 650px;
+    background-image: url(../img/runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    &__right{
+        width:539px;
+        margin-left: auto;
+        padding-top: 154px;
+    }
+    &__heading{
+        width: 430px;
+        font-size:48px;
+        color: #fff;
+        margin-bottom: 54px;
+    }
+    &__text{
+        width: 505px;
+        font-size: 18px;
+        color: #fff;
+        
+        margin-left: 31px;
+       
+    }
+    &__span{
+        width: 2px;
+        height: 120px;
+        background-color:white;
+    }
+   &__link{
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+       background-color:#E29181;
+       padding: 10px 20px 10px 20px;
+       border-radius: 5px;
+       margin-top: 48px;
+   }
+   &__icon{
+       display: flex;
+    //    align-items: center;
+   }
+}
